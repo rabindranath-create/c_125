@@ -36,7 +36,7 @@ results_0 <- data.frame(
 lambda <- 0
 
 for (i in 1:100) {
-  set.seed(8473589437968754+i)
+  set.seed(84735894+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
