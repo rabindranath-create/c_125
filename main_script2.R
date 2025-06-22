@@ -94,7 +94,7 @@ results_1 <- data.frame(
 lambda <- 1
 
 for (i in 1:100) {
-  set.seed(-100394203950237950238+i)
+  set.seed(-1050238+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 2, lambda)
   
@@ -122,7 +122,7 @@ results_15 <- data.frame(
 lambda <- 1.5
 
 for (i in 1:100) {
-  set.seed(218357491378+i)
+  set.seed(21835+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 2, lambda)
   
