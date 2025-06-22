@@ -36,7 +36,7 @@ results_0 <- data.frame(
 lambda <- 0
 
 for (i in 1:100) {
-  set.seed(i)
+  set.seed(8473589437968754+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -65,7 +65,7 @@ results_05 <- data.frame(
 lambda <- 0.5
 
 for (i in 1:100) {
-  set.seed(100+i)
+  set.seed(327857483758+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -94,7 +94,7 @@ results_1 <- data.frame(
 lambda <- 1
 
 for (i in 1:100) {
-  set.seed(200+i)
+  set.seed(34235435434+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -122,7 +122,7 @@ results_15 <- data.frame(
 lambda <- 1.5
 
 for (i in 1:100) {
-  set.seed(300+i)
+  set.seed(1231234242+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -150,7 +150,7 @@ results_2 <- data.frame(
 lambda <- 2
 
 for (i in 1:100) {
-  set.seed(400+i)
+  set.seed(564764765+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -178,7 +178,7 @@ results_25 <- data.frame(
 lambda <- 2.5
 
 for (i in 1:100) {
-  set.seed(500+i)
+  set.seed(46546547654+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -208,7 +208,7 @@ results_3 <- data.frame(
 lambda <- 3
 
 for (i in 1:100) {
-  set.seed(600+i)
+  set.seed(234534765876+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -236,7 +236,7 @@ results_35 <- data.frame(
 lambda <- 3.5
 
 for (i in 1:100) {
-  set.seed(700+i)
+  set.seed(980979685754634+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
@@ -265,7 +265,7 @@ results_4 <- data.frame(
 lambda <- 4
 
 for (i in 1:100) {
-  set.seed(800+i)
+  set.seed(235437658768+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
   result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
   
