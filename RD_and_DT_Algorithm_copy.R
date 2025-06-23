@@ -1310,7 +1310,7 @@ ACS_Alg_C <- function(obs_gen_para, kei, lambda){
           df_edge_ed[which(Int_info[,obs_ind_temp]==1),3] <- Inf
         } else{
           # adjust based on false obstacle
-          df_edge_ed[which(Int_info[,obs_ind_temp]==1),3] <- df_edge_ed[which(Int_info[,obs_ind_temp]==1),3]-
+          df_edge_ed[which(Int_info[,obs_ind_temp]==1),3] <- df_edge_ed[which(Int_info[,obs_ind_temp]==1),3]+
             0.5*( obs_info[obs_ind_temp,3] + ( 1-obs_info[obs_ind_temp,4])^(-kei) )
             #0.5*obs_info[obs_ind_temp,3]/(1-obs_info[obs_ind_temp,4])
           Int_info[which(Int_info[,obs_ind_temp]==1),obs_ind_temp] <- 0 
@@ -1328,7 +1328,7 @@ ACS_Alg_C <- function(obs_gen_para, kei, lambda){
           df_edge_ed[which(Int_info[,obs_ind_temp2]==1),3] <- Inf
         } else{
           # false obstacle
-          df_edge_ed[which(Int_info[,obs_ind_temp2]==1),3] <- df_edge_ed[which(Int_info[,obs_ind_temp2]==1),3]-
+          df_edge_ed[which(Int_info[,obs_ind_temp2]==1),3] <- df_edge_ed[which(Int_info[,obs_ind_temp2]==1),3]+
             0.5*( obs_info[obs_ind_temp,3] + ( 1-obs_info[obs_ind_temp,4])^(-kei) )
           Int_info[which(Int_info[,obs_ind_temp2]==1),obs_ind_temp2] <- 0
         }
