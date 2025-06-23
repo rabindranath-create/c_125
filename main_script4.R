@@ -36,9 +36,9 @@ results_0 <- data.frame(
 lambda <- 0
 
 for (i in 1:100) {
-  set.seed(735894+i)
+  set.seed(i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_0[i, ] <- list(
     Run = i,
@@ -65,9 +65,9 @@ results_05 <- data.frame(
 lambda <- 0.5
 
 for (i in 1:100) {
-  set.seed(32483758+i)
+  set.seed(100+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_05[i, ] <- list(
     Run = i,
@@ -94,9 +94,9 @@ results_1 <- data.frame(
 lambda <- 1
 
 for (i in 1:100) {
-  set.seed(34235434+i)
+  set.seed(200+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_1[i, ] <- list(
     Run = i,
@@ -122,9 +122,9 @@ results_15 <- data.frame(
 lambda <- 1.5
 
 for (i in 1:100) {
-  set.seed(12312242+i)
+  set.seed(300+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_15[i, ] <- list(
     Run = i,
@@ -150,9 +150,9 @@ results_2 <- data.frame(
 lambda <- 2
 
 for (i in 1:100) {
-  set.seed(564765+i)
+  set.seed(400+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_2[i, ] <- list(
     Run = i,
@@ -178,9 +178,9 @@ results_25 <- data.frame(
 lambda <- 2.5
 
 for (i in 1:100) {
-  set.seed(46547654+i)
+  set.seed(500+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_25[i, ] <- list(
     Run = i,
@@ -208,9 +208,9 @@ results_3 <- data.frame(
 lambda <- 3
 
 for (i in 1:100) {
-  set.seed(23765876+i)
+  set.seed(600+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_3[i, ] <- list(
     Run = i,
@@ -236,9 +236,9 @@ results_35 <- data.frame(
 lambda <- 3.5
 
 for (i in 1:100) {
-  set.seed(9574634+i)
+  set.seed(700+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_35[i, ] <- list(
     Run = i,
@@ -265,9 +265,9 @@ results_4 <- data.frame(
 lambda <- 4
 
 for (i in 1:100) {
-  set.seed(23658768+i)
+  set.seed(800+i)
   obs_gen_para <- c(gamma = 0.3, d = 5, noPoints = 125)
-  result <- ACS_Alg_C(obs_gen_para, k = 4, lambda)
+  result <- ACS_Alg_C(obs_gen_para, kei = 4, lambda)
   
   results_4[i, ] <- list(
     Run = i,
